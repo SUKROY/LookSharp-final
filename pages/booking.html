@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - LookSharp</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="LookSharp Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="booking.html" class="active">Booking</a>
+            <a href="rating.html">Rating</a>
+            <a href="facetype.html">Recommendation</a>
+            <a href="community.html">Community</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="booking-container">
+        <h1>Book Your Style</h1>
+        <p class="subtitle">Choose from our curated selection of top-rated barbershops near you</p>
+
+        <div class="booking-grid">
+            <!-- Classic Cuts & Co -->
+            <div class="booking-card">
+                <div class="shop-image">
+                    <img src="../images/shop1.jpg" alt="Classic Cuts & Co">
+                    <div class="shop-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Premium</span>
+                    </div>
+                </div>
+                <div class="shop-info">
+                    <div class="shop-header">
+                        <h2>Classic Cuts & Co</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <span>4.5 (128)</span>
+                        </div>
+                    </div>
+                    <p class="location"><i class="fas fa-location-dot"></i> Downtown, 123 Main Street</p>
+                    <p class="description">A classic barbershop with modern expertise. Specializing in traditional cuts, fades, and hot towel shaves.</p>
+                    
+                    <div class="barbers">
+                        <h3>Available Barbers</h3>
+                        <div class="barber-list">
+                            <div class="barber">
+                                <img src="../images/barber1.jpg" alt="John Smith">
+                                <div class="barber-info">
+                                    <h4>John Smith <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                            <div class="barber">
+                                <img src="../images/barber2.jpg" alt="Michael Brown">
+                                <div class="barber-info">
+                                    <h4>Michael Brown <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.6</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Gentlemen's Quarter -->
+            <div class="booking-card">
+                <div class="shop-image">
+                    <img src="../images/shop2.jpg" alt="The Gentlemen's Quarter">
+                    <div class="shop-badge luxury">
+                        <i class="fas fa-crown"></i>
+                        <span>Luxury</span>
+                    </div>
+                </div>
+                <div class="shop-info">
+                    <div class="shop-header">
+                        <h2>The Gentlemen's Quarter</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0 (96)</span>
+                        </div>
+                    </div>
+                    <p class="location"><i class="fas fa-location-dot"></i> Midtown, 456 Oak Avenue</p>
+                    <p class="description">Luxury grooming experience with complimentary beverages. Expert in modern styles and premium grooming services.</p>
+                    
+                    <div class="barbers">
+                        <h3>Available Barbers</h3>
+                        <div class="barber-list">
+                            <div class="barber">
+                                <img src="../images/barber3.jpg" alt="James Wilson">
+                                <div class="barber-info">
+                                    <h4>James Wilson <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                            <div class="barber">
+                                <img src="../images/barber4.jpg" alt="David Lee">
+                                <div class="barber-info">
+                                    <h4>David Lee <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crown & Blade -->
+            <div class="booking-card">
+                <div class="shop-image">
+                    <img src="../images/shop3.jpg" alt="Crown & Blade">
+                    <div class="shop-badge trendy">
+                        <i class="fas fa-fire"></i>
+                        <span>Trendy</span>
+                    </div>
+                </div>
+                <div class="shop-info">
+                    <div class="shop-header">
+                        <h2>Crown & Blade</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>4.0 (64)</span>
+                        </div>
+                    </div>
+                    <p class="location"><i class="fas fa-location-dot"></i> Uptown, 789 Pine Street</p>
+                    <p class="description">Contemporary barbershop specializing in trending styles. Perfect for those looking for the latest in hair fashion.</p>
+                    
+                    <div class="barbers">
+                        <h3>Available Barbers</h3>
+                        <div class="barber-list">
+                            <div class="barber">
+                                <img src="../images/barber5.jpg" alt="Ryan Taylor">
+                                <div class="barber-info">
+                                    <h4>Ryan Taylor <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                            <div class="barber">
+                                <img src="../images/barber6.jpg" alt="Chris Martinez">
+                                <div class="barber-info">
+                                    <h4>Chris Martinez <i class="fas fa-check-circle verified-icon"></i></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.3</span>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="certificate-content">
+                <h2>Verified Professional Barber</h2>
+                <img id="certificateImage" src="../images/certificate.png" alt="Barber Certificate">
+                <p>This barber has been verified and certified by LookSharp's professional standards.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="../images/logo.png" alt="LookSharp Logo" class="footer-logo">
+                <p>Your personal style consultant</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="booking.html">Booking</a>
+                <a href="rating.html">Rating</a>
+                <a href="facetype.html">Recommendation</a>
+                <a href="community.html">Community</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LookSharp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Get certificate modal elements
+        const certificateModal = document.getElementById('certificateModal');
+        const certificateCloseBtn = certificateModal.querySelector('.close-btn');
+        const verifiedIcons = document.querySelectorAll('.verified-icon');
+
+        // Add click event to all verified icons
+        verifiedIcons.forEach(icon => {
+            icon.addEventListener('click', function(e) {
+                e.preventDefault();
+                certificateModal.style.display = 'block';
+            });
+        });
+
+        // Close modal when clicking the close button
+        certificateCloseBtn.onclick = function() {
+            certificateModal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == certificateModal) {
+                certificateModal.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script src="../js/main.js"></script>
+</body>
+</html> 

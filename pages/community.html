@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - LookSharp</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/community.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="LookSharp Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="booking.html">Booking</a>
+            <a href="rating.html">Rating</a>
+            <a href="facetype.html">Recommendation</a>
+            <a href="community.html" class="active">Community</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="community-container">
+        <div class="community-header">
+            <h1>LookSharp Community</h1>
+            <button class="create-post-btn">
+                <i class="fas fa-plus"></i>
+                Create Post
+            </button>
+        </div>
+
+        <div class="community-layout">
+            <!-- Left Sidebar -->
+            <div class="sidebar">
+                <div class="trending-topics">
+                    <h3>Trending Topics</h3>
+                    <div class="topic">
+                        <span class="hashtag">#FadeStyles</span>
+                        <span class="post-count">2.5K posts</span>
+                    </div>
+                    <div class="topic">
+                        <span class="hashtag">#ModernPompadour</span>
+                        <span class="post-count">1.8K posts</span>
+                    </div>
+                    <div class="topic">
+                        <span class="hashtag">#BeardCare</span>
+                        <span class="post-count">1.2K posts</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Feed -->
+            <div class="post-feed">
+                <!-- Create Post Box -->
+                <div class="create-post">
+                    <img src="../images/default-avatar.jpg" alt="Your Profile" class="user-avatar">
+                    <div class="post-input">
+                        <textarea placeholder="Share your hairstyle journey..."></textarea>
+                        <div class="post-actions">
+                            <button class="upload-btn"><i class="fas fa-image"></i> Add Photo</button>
+                            <button class="post-btn">Post</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Posts -->
+                <div class="posts">
+                    <!-- Post 1 -->
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="../images/user1.jpg" alt="User" class="user-avatar">
+                            <div class="post-info">
+                                <h4>John Smith</h4>
+                                <span class="username">@johnsmith</span>
+                                <span class="post-time">2 hours ago</span>
+                            </div>
+                            <button class="more-options">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </div>
+                        <div class="post-content">
+                            <p>Just got this amazing fade at LookSharp Downtown! Loving the precision and attention to detail. 🔥✂️ #FreshCut #Fade</p>
+                            <div class="post-image">
+                                <img src="../images/haircut1.jpg" alt="Haircut">
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span>245</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span>18</span>
+                            </button>
+                            <button class="share-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Post 2 -->
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="../images/barber1.jpg" alt="Barber" class="user-avatar">
+                            <div class="post-info">
+                                <h4>Mike Johnson</h4>
+                                <span class="username">@mikethebarberlooksharp</span>
+                                <span class="verified-badge">
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="post-time">5 hours ago</span>
+                            </div>
+                            <button class="more-options">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </div>
+                        <div class="post-content">
+                            <p>Here's a modern pompadour I did today. Perfect for those wanting a classic look with a contemporary twist! 💈 #Pompadour #BarberLife</p>
+                            <div class="post-image">
+                                <img src="../images/haircut2.jpg" alt="Haircut">
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span>432</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span>45</span>
+                            </button>
+                            <button class="share-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Post 3 -->
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="../images/user2.jpg" alt="User" class="user-avatar">
+                            <div class="post-info">
+                                <h4>Alex Thompson</h4>
+                                <span class="username">@alexthompson</span>
+                                <span class="post-time">1 day ago</span>
+                            </div>
+                            <button class="more-options">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                        </div>
+                        <div class="post-content">
+                            <p>Before and after at The Gentlemen's Quarter! Can't believe the transformation. Thanks @mikethebarberlooksharp for the amazing work! 🙌 #HairTransformation</p>
+                            <div class="post-image-grid">
+                                <img src="../images/before.jpg" alt="Before">
+                                <img src="../images/after.jpg" alt="After">
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="like-btn">
+                                <i class="far fa-heart"></i>
+                                <span>678</span>
+                            </button>
+                            <button class="comment-btn">
+                                <i class="far fa-comment"></i>
+                                <span>89</span>
+                            </button>
+                            <button class="share-btn">
+                                <i class="far fa-share-square"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="sidebar">
+                <div class="suggested-profiles">
+                    <h3>Popular Barbers</h3>
+                    <div class="profile">
+                        <img src="../images/barber1.jpg" alt="Barber">
+                        <div class="profile-info">
+                            <h4>Mike Johnson</h4>
+                            <span>LookSharp Midtown</span>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+                    <div class="profile">
+                        <img src="../images/barber2.jpg" alt="Barber">
+                        <div class="profile-info">
+                            <h4>David Wilson</h4>
+                            <span>LookSharp Downtown</span>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="../images/logo.png" alt="LookSharp Logo" class="footer-logo">
+                <p>Your personal style consultant</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="booking.html">Booking</a>
+                <a href="rating.html">Rating</a>
+                <a href="facetype.html">Recommendation</a>
+                <a href="community.html">Community</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LookSharp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html> 

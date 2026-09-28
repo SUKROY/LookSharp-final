@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating - LookSharp</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/rating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="LookSharp Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="booking.html">Booking</a>
+            <a href="rating.html" class="active">Rating</a>
+            <a href="facetype.html">Recommendation</a>
+            <a href="community.html">Community</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="rating-container">
+        <h1>Ratings & Reviews</h1>
+        <div class="rating-grid">
+            <!-- Downtown Location -->
+            <div class="rating-card">
+                <div class="shop-header">
+                    <img src="../images/shop1.jpg" alt="Classic Cuts & Co">
+                    <div class="shop-info">
+                        <h2>Classic Cuts & Co</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                            <span class="rating-score">4.5</span>
+                            <span class="review-count">(128 reviews)</span>
+                        </div>
+                        <p class="shop-location"><i class="fas fa-location-dot"></i> Downtown, 123 Main Street</p>
+                    </div>
+                </div>
+
+                <div class="barber-ratings">
+                    <h3>Our Barbers</h3>
+                    <div class="barber-card">
+                        <img src="../images/barber1.jpg" alt="John Smith">
+                        <div class="barber-info">
+                            <h4>John Smith <i class="fas fa-check-circle verified-icon"></i></h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <h3>Recent Reviews</h3>
+                    <div class="review">
+                        <div class="review-header">
+                            <img src="../images/user1.jpg" alt="User">
+                            <div>
+                                <h4>Michael Brown</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <span class="review-date">2 days ago</span>
+                        </div>
+                        <p>Great experience! John did an amazing job with my fade. The atmosphere is modern and welcoming.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Midtown Location -->
+            <div class="rating-card">
+                <div class="shop-header">
+                    <img src="../images/shop2.jpg" alt="The Gentlemen's Quarter">
+                    <div class="shop-info">
+                        <h2>The Gentlemen's Quarter</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-score">5.0</span>
+                            <span class="review-count">(96 reviews)</span>
+                        </div>
+                        <p class="shop-location"><i class="fas fa-location-dot"></i> Midtown, 456 Oak Avenue</p>
+                    </div>
+                </div>
+
+                <div class="barber-ratings">
+                    <h3>Our Barbers</h3>
+                    <div class="barber-card">
+                        <img src="../images/barber2.jpg" alt="Mike Johnson">
+                        <div class="barber-info">
+                            <h4>Mike Johnson <i class="fas fa-check-circle verified-icon"></i></h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <h3>Recent Reviews</h3>
+                    <div class="review">
+                        <div class="review-header">
+                            <img src="../images/user2.jpg" alt="User">
+                            <div>
+                                <h4>David Lee</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <span class="review-date">1 week ago</span>
+                        </div>
+                        <p>Mike is a true professional. Best haircut I've ever had. The attention to detail is outstanding.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Uptown Location -->
+            <div class="rating-card">
+                <div class="shop-header">
+                    <img src="../images/shop3.jpg" alt="Crown & Blade">
+                    <div class="shop-info">
+                        <h2>Crown & Blade</h2>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-score">4.0</span>
+                            <span class="review-count">(64 reviews)</span>
+                        </div>
+                        <p class="shop-location"><i class="fas fa-location-dot"></i> Uptown, 789 Pine Street</p>
+                    </div>
+                </div>
+
+                <div class="barber-ratings">
+                    <h3>Our Barbers</h3>
+                    <div class="barber-card">
+                        <img src="../images/barber3.jpg" alt="David Wilson">
+                        <div class="barber-info">
+                            <h4>David Wilson <i class="fas fa-check-circle verified-icon"></i></h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <h3>Recent Reviews</h3>
+                    <div class="review">
+                        <div class="review-header">
+                            <img src="../images/user3.jpg" alt="User">
+                            <div>
+                                <h4>James Wilson</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <span class="review-date">3 days ago</span>
+                        </div>
+                        <p>Really cool new location with modern equipment. David gave me exactly the style I wanted.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="certificate-content">
+                <h2>Verified Professional Barber</h2>
+                <img id="certificateImage" src="../images/certificate.png" alt="Barber Certificate">
+                <p>This barber has been verified and certified by LookSharp's professional standards.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="../images/logo.png" alt="LookSharp Logo" class="footer-logo">
+                <p>Your personal style consultant</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="booking.html">Booking</a>
+                <a href="rating.html">Rating</a>
+                <a href="facetype.html">Recommendation</a>
+                <a href="community.html">Community</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LookSharp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Get certificate modal elements
+        const certificateModal = document.getElementById('certificateModal');
+        const certificateCloseBtn = certificateModal.querySelector('.close-btn');
+        const verifiedIcons = document.querySelectorAll('.verified-icon');
+
+        // Add click event to all verified icons
+        verifiedIcons.forEach(icon => {
+            icon.addEventListener('click', function(e) {
+                e.preventDefault();
+                certificateModal.style.display = 'block';
+            });
+        });
+
+        // Close modal when clicking the close button
+        certificateCloseBtn.onclick = function() {
+            certificateModal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == certificateModal) {
+                certificateModal.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script src="../js/main.js"></script>
+</body>
+</html> 

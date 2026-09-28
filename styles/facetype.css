@@ -1,0 +1,286 @@
+.facetype-container {
+    padding: 80px 5% 2rem;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.facetype-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.facetype-header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.facetype-header p {
+    color: #b0b0b0;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.face-shapes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.face-shape-card {
+    background: #2a2a2a;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.face-shape-card:hover {
+    transform: translateY(-5px);
+}
+
+.face-shape-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.face-shape-card h3 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.face-shape-card p {
+    color: #b0b0b0;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.learn-more-btn {
+    background: #ff3333;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background: #e60000;
+}
+
+.analysis-section {
+    text-align: center;
+    padding: 3rem 0;
+    background: #2a2a2a;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.analysis-section h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.analysis-section p {
+    color: #b0b0b0;
+    margin-bottom: 2rem;
+}
+
+.analysis-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.analysis-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #ff3333;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.analysis-btn:hover {
+    background: #e60000;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.close-btn {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.close-btn:hover {
+    color: #ff3333;
+}
+
+.recommendation-content {
+    width: 100%;
+}
+
+.recommendation-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header h2 {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.modal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.shape-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.shape-details h3 {
+    color: #ffffff;
+    margin: 1.5rem 0 1rem;
+}
+
+.shape-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shape-details li {
+    margin-bottom: 0.5rem;
+    color: #b0b0b0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.shape-details li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+.modal-footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.book-consultation {
+    background: #ff3333;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.book-consultation:hover {
+    background: #e60000;
+}
+
+/* Scrollbar styles */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #1f1f1f;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #505050;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .modal-body {
+        grid-template-columns: 1fr;
+    }
+
+    .analysis-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .analysis-btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+}
+
+/* Update any other button styles to match */
+.modal-content button,
+.modal-content .btn {
+    background: #ff3333;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover,
+.modal-content .btn:hover {
+    background: #e60000;
+} 
